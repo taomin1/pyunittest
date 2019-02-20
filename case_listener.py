@@ -4,6 +4,7 @@ class caseListener:
             def __deco(*args, **kwargs):
                 print('Start to get test info')
                 print('classname: '+dict_info["classname"])
+                print('param:'+kwargs["key"])
                 try:
                     print('End to get test info')
                 except Exception as e:
